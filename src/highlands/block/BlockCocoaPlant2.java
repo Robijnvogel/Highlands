@@ -43,7 +43,6 @@ public class BlockCocoaPlant2 extends BlockCocoa
         par2 += Direction.offsetX[l];
         par4 += Direction.offsetZ[l];
         Block log = par1World.getBlock(par2, par3, par4);
-        Logs.log(Level.INFO, "BlockCocoaPlant2 attached to "+log);
         //TODO-                              limitToValidMetadata
         return (log == Blocks.log && BlockLog.func_150165_c(par1World.getBlockMetadata(par2, par3, par4)) == 3)
         		|| (log == HighlandsBlocks.palmWood);
