@@ -281,9 +281,9 @@ public static void registerBlocksForestry(){
 		sb.append(b).append(".0;");
 	}
 	FMLInterModComms.sendMessage("Forestry", "add-backpack-items", "forester@" + sb.toString());
-	FlowerManager.plainFlowers.add(new ItemStack(HighlandsBlocks.blueFlower));
-	FlowerManager.plainFlowers.add(new ItemStack(HighlandsBlocks.lavender));
-	FlowerManager.plainFlowers.add(new ItemStack(HighlandsBlocks.whiteFlower));
+	FlowerManager.flowerRegistry.registerPlantableFlower(HighlandsBlocks.blueFlower, 0, 1.0, FlowerManager.FlowerTypeVanilla);
+	FlowerManager.flowerRegistry.registerPlantableFlower(HighlandsBlocks.lavender, 0, 1.0, FlowerManager.FlowerTypeVanilla);
+	FlowerManager.flowerRegistry.registerPlantableFlower(HighlandsBlocks.whiteFlower, 0, 1.0, FlowerManager.FlowerTypeVanilla);
 }
 
 public static void registerRecipesForestry(){
