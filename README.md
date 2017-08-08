@@ -36,7 +36,13 @@ Building the Project
 If you want buggy as heck alpha/beta builds for your Minecraft world, do this:
 
 1. Download the project.
-2. Open a command prompt window from the workspace folder.
-3. Run 'gradlew build'.
-4. Find the Highlands-version jar in the build/lib folder located in your workspace folder.
-5. You have a usable and, if not an official verison, buggy copy of the mod.
+2. Add the necessary libraries to a newly created "libs" folder in the root directory. The necessary libraries are:
+-Biomes O' Plenty
+-Forestry
+-Minefactory Reloaded
+-Thaumcraft
+-Highlands (ironically)
+3. Open a command prompt window from the workspace folder.
+4. Run 'gradlew build'.
+5. Find the Highlands-version jar in the build/lib folder located in your workspace folder.
+6. You have a usable and, if not an official verison, buggy copy of the mod.

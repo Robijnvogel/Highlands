@@ -1,6 +1,7 @@
 # gradle
 .gradle
 build
+libs
 
 # ForgeGradle
 /run
@@ -20,6 +21,9 @@ out
 *.iml
 *.iws
 *.ipr
+
+# netbeans
+.nb-gradle/
 
 # minecraft
 saves
